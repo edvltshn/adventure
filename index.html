@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Adventure</title>
+    <link href="fonts/newbaskervillec.woff" rel="stylesheet">
+    <link href="fonts/newbaskervillec.woff2" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header class="header">
+      <div class="header__container">
+        <a class="header__logo" href="">
+          <img src="img/svg/logo.svg">
+        </a>
+        <div class="header__text">
+          <span class="header__name">adventure</span>
+          <br>
+          <span class="header__motto">оставь свой след, где его еще нет...</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <section class="country-filter">
+        <ul class="country-filter__list">
+          <li class="country-filter__item country-filter__item--active">
+          <a class="country-filter__item--link" href="#">все страны</a>
+          </li>
+          <li class="country-filter__item">
+          <a class="country-filter__item--link" href="#">культура</a>
+          </li>
+          <li class="country-filter__item">
+          <a class="country-filter__item--link" href="#">экстрим</a>
+          </li>
+          <li class="country-filter__item">
+          <a class="country-filter__item--link" href="#">атмосфера</a>
+          </li>
+          <li class="country-filter__item">
+          <a class="country-filter__item--link" href="#">люди</a>
+          </li>
+        </ul>
+      </section>
+      <section class="content-cards clearfix">
+        <div class="country-card">
+         <div class="country-card__slider">
+            <div class="country-card--slide1 country-card--cuba">
+              <div class="country-card__overlay">
+                <h2 class="country-card__name">Cuba</h2>
+              </div>
+            </div>
+            <div class="country-card--slide2">
+              <article class="country-card__desc">
+                Хемингуэй, став весьма знаменитым, естественно, мог выбрать любое место в мире. Почему же он 22 года прожил в Гаване? Потому что это свобода!
+              </article>
+              <h2 class="country-card__name country-card__name--corner">Cuba</h2>
+            </div>
+            <div class="country-card--slide3">
+              <img src="img/cuba-photo-prev.jpg">
+              <div class="country-card__overlay country-card__overlay--photo">
+                <div class="country-card__btn country-card__btn--photo"></div>
+              </div>
+              <h2 class="country-card__name country-card__name--corner">Cuba</h2>
+            </div>
+            <div class="country-card--slide4">
+              <img src="img/cuba-video-prev.jpg">
+              <div class="country-card__overlay country-card__overlay--photo">
+                <div class="country-card__btn country-card__btn--video"></div>
+              </div>
+              <h2 class="country-card__name country-card__name--corner">Cuba</h2>
+            </div>
+            <div class="country-card__slider-btn country-card__slider-btn--prev"></div>
+            <div class="country-card__slider-btn country-card__slider-btn--next"></div>
+          </div>
+        </div>
+        <div class="country-card">
+          <div class="country-card__slider">
+            <div class="country-card--slide2">
+              <article class="country-card__desc">
+                Хемингуэй, став весьма знаменитым, естественно, мог выбрать любое место в мире. Почему же он 22 года прожил в Гаване? Потому что это свобода!
+              </article>
+              <h2 class="country-card__name country-card__name--corner">Cuba</h2>
+            </div>
+            <!-- <div class="country-card--slide1 country-card--russia">
+              <div class="country-card__overlay">
+                <h2 class="country-card__name">Russia</h2>
+              </div>
+            </div> -->
+            <div class="country-card__slider-btn country-card__slider-btn--prev"></div>
+            <div class="country-card__slider-btn country-card__slider-btn--next"></div>
+          </div>
+        </div>
+        <div class="country-card country-card--big">
+          <div class="country-card--slide1--big country-card--latin-america">
+            <div class="country-card__overlay--big">
+              <h2 class="country-card__name--big">Latin America</h2>
+              <ol class="country-card__list">
+                <li class="country-card__item">Honduras</li>
+                <li class="country-card__item">Columbia</li>
+                <li class="country-card__item">Panama</li>
+                <li class="country-card__item">Brazil</li>
+                <li class="country-card__item">Peru</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div class="country-card">
+          <div class="country-card__slider">
+            <div class="country-card--slide3">
+              <img src="img/cuba-photo-prev.jpg">
+              <div class="country-card__overlay country-card__overlay--photo">
+                <div class="country-card__btn country-card__btn--photo js-open__photo"></div>
+              </div>
+              <h2 class="country-card__name country-card__name--corner">Cuba</h2>
+            </div>
+            <!-- <div class="country-card--slide1 country-card--england">
+              <div class="country-card__overlay">
+                <h2 class="country-card__name">England</h2>
+              </div>
+            </div> -->
+            <div class="country-card__slider-btn country-card__slider-btn--prev"></div>
+            <div class="country-card__slider-btn country-card__slider-btn--next"></div>
+          </div>
+        </div>
+        <div class="country-card">
+          <div class="country-card--slide4">
+              <img src="img/cuba-video-prev.jpg">
+              <div class="country-card__overlay country-card__overlay--video">
+                <div class="country-card__btn country-card__btn--video js-open__video"></div>
+              </div>
+              <h2 class="country-card__name country-card__name--corner">Cuba</h2>
+            </div>
+          <!-- <div class="country-card__slider">
+            <div class="country-card--slide1 country-card--norway">
+              <div class="country-card__overlay">
+                <h2 class="country-card__name">Norway</h2>
+              </div>
+            </div> -->
+            <div class="country-card__slider-btn country-card__slider-btn--prev"></div>
+            <div class="country-card__slider-btn country-card__slider-btn--next"></div>
+          </div>
+        </div>
+        <div class="country-card">
+          <div class="country-card--slide1 country-card--switzerland">
+            <div class="country-card__overlay">
+              <h2 class="country-card__name">Switzerland</h2>
+            </div>
+            <div class="country-card__slider-btn country-card__slider-btn--prev"></div>
+            <div class="country-card__slider-btn country-card__slider-btn--next"></div>
+          </div>
+        </div>
+        <div class="country-card">
+          <div class="country-card--slide1 country-card--china">
+            <div class="country-card__overlay">
+              <h2 class="country-card__name">China</h2>
+            </div>
+            <div class="country-card__slider-btn country-card__slider-btn--prev"></div>
+            <div class="country-card__slider-btn country-card__slider-btn--next"></div>
+          </div>
+        </div>
+        <div class="country-card">
+          <div class="country-card--slide1 country-card--germany">
+            <div class="country-card__overlay">
+              <h2 class="country-card__name">Germany</h2>
+            </div>
+            <div class="country-card__slider-btn country-card__slider-btn--prev"></div>
+            <div class="country-card__slider-btn country-card__slider-btn--next"></div>
+          </div>
+        </div>
+        <div class="country-card">
+          <div class="country-card--slide1 country-card--japan">
+            <div class="country-card__overlay">
+              <h2 class="country-card__name">Japan</h2>
+            </div>
+            <div class="country-card__slider-btn country-card__slider-btn--prev"></div>
+            <div class="country-card__slider-btn country-card__slider-btn--next"></div>
+          </div>
+        </div>
+        <div class="country-card">
+          <div class="country-card--slide1 country-card--australia">
+            <div class="country-card__overlay">
+              <h2 class="country-card__name">Australia</h2>
+            </div>
+            <div class="country-card__slider-btn country-card__slider-btn--prev"></div>
+            <div class="country-card__slider-btn country-card__slider-btn--next"></div>
+          </div>
+        </div>
+        <div class="country-card">
+          <div class="country-card--slide1 country-card--india">
+            <div class="country-card__overlay">
+              <h2 class="country-card__name">India</h2>
+            </div>
+            <div class="country-card__slider-btn country-card__slider-btn--prev"></div>
+            <div class="country-card__slider-btn country-card__slider-btn--next"></div>
+          </div>
+        </div>
+        <div class="country-card">
+          <div class="country-card--slide1 country-card--finland">
+            <div class="country-card__overlay">
+              <h2 class="country-card__name">Finland</h2>
+            </div>
+            <div class="country-card__slider-btn country-card__slider-btn--prev"></div>
+            <div class="country-card__slider-btn country-card__slider-btn--next"></div>
+          </div>
+        </div>
+        <div class="country-card">
+          <div class="country-card--slide1 country-card--new-zealand">
+            <div class="country-card__overlay">
+              <h2 class="country-card__name">New Zealand</h2>
+            </div>
+            <div class="country-card__slider-btn country-card__slider-btn--prev"></div>
+            <div class="country-card__slider-btn country-card__slider-btn--next"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <section class="footer__text clearfix">
+        <span class="footer__copyright">© 2013 - 2015</span>
+        <span class="footer__desc">Здесь наследили <span>соискатели:)</span></span>
+      </section>
+    </footer>
+
+    <div class="fullsize__photo">
+      <img src="img/cuba-photo.jpg">
+      <button class="fullsize__close" type="button" title="Close">Close</button>
+    </div>
+    <div class="fullsize__video">
+      <img src="img/video-screen.jpg">
+     <button class="fullsize__close" type="button" title="Close">Close</button>
+    </div>
+    <div class="modal-overlay"></div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
